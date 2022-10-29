@@ -33,6 +33,9 @@
     font-size: 25px;
     color:white;
 }
+.form__button:hover{
+    font-size:27px;
+}
 .form__item1{
     grid-column:1/2;
     grid-row: 1/2;
