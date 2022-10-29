@@ -1,5 +1,4 @@
 const entrance = document.getElementById("entrance");
-console.log(entrance);
 entrance.addEventListener("click", onChange);
 
 function onChange() {
