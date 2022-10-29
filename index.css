@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
 .container {
    width: 1248px;
    margin: 0 auto;
+   font-family: 'Jost', sans-serif;
 }
 
 .header {
    display: flex;
    justify-content: space-between;
-   margin-top: 65px;
-   margin-bottom: 16px;
+   align-items:center;
+  padding: 20px;
+  
+}
+
+h1 {
+   font-size: 35px;
+   font-weight:500;
+   color: #EA5D80;
+}
+
+.header a{
+   font-size: 20px;
+   font-weight:400;
+   color: #EA5D80;
+   text-decoration: none;
+   
 }
