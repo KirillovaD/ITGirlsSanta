@@ -1,8 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
 @import url(./form/form.css);
 
-div {
-    /* border: 1px solid black; */
-}
 
 .container {
     display: grid;
@@ -290,6 +289,21 @@ h1 {
     color: #EA5D80;
 }
 
+footer {
+    height: 150px;
+    font-family: 'Jost', sans-serif;
+    font: 400;
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;
+}
+
+.footer__website_link {
+    color: white;
+    text-decoration: none;
+}
 .header__privet {
     font-size: 18px;
     font-weight: 400;
