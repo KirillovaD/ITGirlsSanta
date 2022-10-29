@@ -20,10 +20,23 @@ h1 {
    color: #EA5D80;
 }
 
-.header a{
+.header__entrance{
+   font-size: 18px;
+   font-weight:400;
+   color: #ff7899;
+   text-decoration: none;
+   cursor: pointer;
+   
+}
+.header__entrance:hover{
    font-size: 20px;
    font-weight:400;
    color: #EA5D80;
+}
+.header__privet{
+   font-size: 18px;
+   font-weight:400;
+   color: #ff7899;
    text-decoration: none;
-   
+   cursor: pointer;
 }
