@@ -26,12 +26,15 @@
 }
 .form__button{
     margin-left: 10%;
-    background-color: #6CA7FF;
+    background-color: #EA5D80;
     border-width: 0;
     border-radius: 15px;
     font-weight: 500;
     font-size: 25px;
     color:white;
+}
+.form__button:hover{
+    font-size:27px;
 }
 .form__item1{
     grid-column:1/2;
