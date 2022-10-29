@@ -1,4 +1,5 @@
 @import url(./form/form.css);
+
 div {
     /* border: 1px solid black; */
 }
@@ -22,7 +23,7 @@ div {
 }
 
 .one {
-    background-image: url('/img/snowflake\ 1.svg');
+    background-image: url('/img/snowflake.svg');
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-right: 20px;
