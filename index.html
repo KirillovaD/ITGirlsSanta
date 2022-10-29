@@ -20,7 +20,7 @@
 
 <body>
    <main>
-      <header></header>
+
       <!-- <div class="container"> -->
       <main>
          <header class="header">
@@ -100,17 +100,19 @@
             <section>
                <!-- Daniya -->
                <section>
-                  <div class="form">
-                     <input type="text" placeholder="Имя">
-                     <input type="text" placeholder="Фамилия">
-                     <input type="text" placeholder="Адрес">
-                     <input type="text" placeholder="Номер телефона">
-                     <input type="text" placeholder="Ваши пожелания к подарку">
-                     <button type="submit">Отправить</button>
-                     <p>Отправляя форму, ты принимаешь соглашение о персональных данных</p>
-                     <img src="" alt="картинка в форме">
+               <form enctype="multipart/form-data" method="POST">
+            <div class="form">
+                     <input type="text" placeholder="Имя" class="form__item form__item1" required>
+                     <input type="text" placeholder="Фамилия" class="form__item form__item2" required>
+                     <input type="text" placeholder="Адрес" class="form__item form__item3" required>
+                     <input type="text" placeholder="Номер телефона" class="form__item form__item4" required pattern="[ 0-9]+$">
+                     <input type="text" placeholder="Ваши пожелания к подарку" class="form__item form__item5">
+                     <button type="submit" class="form__button">Отправить</button>
+                     <p class="form__text">Отправляя форму, ты принимаешь <a href="https://disk.yandex.ru/i/hNMI3CZg76GAbw?_gl=1*1g6hpmg*_ga*NzM0NzUyNDM1LjE2NjcwMzYzOTM.*_ga_78JR3608R7*MTY2NzAzOTg5Mi4yLjEuMTY2NzA0MDI5Mi4wLjAuMA..">Cоглашение о персональных данных</a></p>
+                     <img src="" alt="картинка в форме" class="form__img">
                   </div>
-               </section>
+            </form>
+         </section>
                <footer></footer>
       </main>
 
