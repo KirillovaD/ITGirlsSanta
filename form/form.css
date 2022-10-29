@@ -6,7 +6,7 @@
     margin-right: auto;
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: repeat(4,10vh) 25vh 10vh 10vh;
     column-gap: 5%;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
@@ -26,7 +26,7 @@
 }
 .form__button{
     margin-left: 10%;
-    background-color: #EA5D80;
+    background-color: #6CA7FF;
     border-width: 0;
     border-radius: 15px;
     font-weight: 500;
@@ -48,6 +48,7 @@
 .form__item4{
     grid-column:1/2;
     grid-row: 4/5;
+    word-break: break-all;
 }
 .form__item5{
     grid-column:1/2;
