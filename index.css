@@ -3,7 +3,7 @@
 @import url(./form/form.css);
 
 
-.container {
+.container__section {
     display: grid;
     grid-gap: 10px;
     padding: 5%;
@@ -22,7 +22,7 @@
 }
 
 .one {
-    background-image: url('/img/snowflake.svg');
+    background-image: url('./img/snow.png');
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-right: 20px;
@@ -46,7 +46,7 @@
 }
 
 .four {
-    background-image: url('/img/snowflake.svg');
+    background-image: url('./img/snow.png');
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-right: 20px;
@@ -255,7 +255,6 @@
 
 
 .container {
-    width: 1248px;
     margin: 0 auto;
     font-family: 'Jost', sans-serif;
 }
